@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+<div class="topnav">
+    <a onClick={this.scrollTocontact} href="#news">Contact</a>
+    <a onClick={this.scrollToportfolio} href="#contact">Experience</a>
+    <a onClick={this.scrollToabout} href="#about">About</a>
+</div>
 
-</body>
+<div>
+    <div class="content about">
+        <h1>Hello, my name is Eduardo Sanchez</h1>
+        <p>
+            I am a recent UCSD graduate and aspiring developer. I love to solve difficult questions
+            and puzzles with elegant solutions. I hope to bring creativity and positivity to your projects!
+
+        </p>
+        <p>
+            Since beginning my career I have worked in numerous projects and
+            startups and have made positive impacts in all. I hope to work in a place where
+            I can continue to make a difference both in and out of the company.
+        </p>
+    </div>
+</div>
+
+<div class="twotone">
+    <div class="content experience">
+        <h1>Experience</h1>
+
+
+
+        <div class="expCard">
+            <div><a href="https://www.ticketdm.com/"><img class="projectLogo" src="images/ticketDM.png" /></a></div>
+            <div>
+                <h3> <a href="https://www.ticketdm.com/">TicketDM </a>&nbsp; - &nbsp; Backend Engineering Intern</h3>
+                <p>
+                    TicketDM is a ticket exchange application targetting the musical festival scene.
+                    I was the lead designer for a data scraping project that used python to collect social
+                    media posts in order to predict ticket prices. I also assisted in creating API services
+                    for our third parties, and maintaining the LAMP backend.
+                </p>
+                <div class="skillList">
+                    <div>PHP</div>
+                    <div>MySQL</div>
+                    <div>Android</div>
+                    <div>Python</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="expCard">
+            <div><a href="https://www.f6s.com/skinalytics"><img class="projectLogo" src="/images/skinAnalytics.png" /></a></div>
+            <div>
+                <h3><a href="https://www.f6s.com/skinalytics">Skinalytics</a> &nbsp; - &nbsp; Software Engineering
+                    Intern </h3>
+                <p>
+                    Incubator startup focusing on creating Android app for commercial use.
+                    I mainly focused on adding new functionality to the Android app. I created a card based survey
+                    system for
+                    new user sign-ups. I also assisted in maintaining the DynamoDB database and general bug fixing.
+                </p>
+                <div class="skillList">
+                    <div>Android</div>
+                    <div>Java</div>
+                    <div>NoSQL</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="expCard">
+            <div><a href="http://206.189.223.42/"><img class="projectLogo" src="images/familyFriendly.png" /></a></div>
+            <div>
+                <h3><a href="http://206.189.223.42/">Family Friendly</a> &nbsp; - &nbsp; Fullstack Developer</h3>
+                <p>
+                    This was a class design project that tasked us with creating a functional website.
+                    This website allows families to check relevant statistics that could influence a families decision
+                    to move.
+                    My role mainly focused on the developing the front facing website as well as pitching the original
+                    idea.
+                </p>
+                <div class="skillList">
+                    <div>PHP</div>
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>MySQL</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <div class="content">
+        <h1>Contact Info</h1>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/eduardo-sanchez-787b00a5/" class="links">LinkedIn</a></li>
+            <li><a href="https://github.com/ECSanchez" class="links">Github</a></li>
+            <li><a href="mailto: ecsanchez97@gmail.com" class="links">ecsanchez97@gmail.com</a></li>
+            <li><a href="https://drive.google.com/open?id=1KYMoCBtMUE233oh4_hVNsuMldBzpn7Ba">Resume</a></li>
+        </ul>
+    </div>
+</div>
 
 </html>
