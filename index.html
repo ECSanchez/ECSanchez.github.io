@@ -6,12 +6,12 @@
 </head>
 
 <div class="topnav">
-    <a onClick={this.scrollTocontact} href="#news">Contact</a>
-    <a onClick={this.scrollToportfolio} href="#contact">Experience</a>
-    <a onClick={this.scrollToabout} href="#about">About</a>
+    <a onClick="scrollCont()">Contact</a>
+    <a onClick="scrollExp()" >Experience</a>
+    <a onClick="scrollAbout()">About</a>
 </div>
 
-<div>
+<div id="aboutRef">
     <div class="content about">
         <h1>Hello, my name is Eduardo Sanchez</h1>
         <p>
@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="twotone">
+<div id="expRef" class="twotone">
     <div class="content experience">
         <h1>Experience</h1>
 
@@ -94,7 +94,7 @@
     </div>
 </div>
 
-<div>
+<div id="contRef">
     <div class="content">
         <h1>Contact Info</h1>
         <ul>
@@ -105,5 +105,24 @@
         </ul>
     </div>
 </div>
+
+
+
+<script>
+    function scrollAbout() {
+      var elmnt = document.getElementById("aboutRef");
+      elmnt.scrollIntoView();
+    }
+
+    function scrollExp() {
+      var elmnt = document.getElementById("expRef");
+      elmnt.scrollIntoView();
+    }
+    
+    function scrollCont() {
+      var elmnt = document.getElementById("contRef");
+      elmnt.scrollIntoView();
+    }
+</script>
 
 </html>
