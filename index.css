@@ -94,6 +94,10 @@ img {
     margin: 0 0 0 0;
 }
 
+.projectLogo:hover{
+    box-shadow: 0 0 3pt 3pt #1cb175;
+}
+
 .skillList {
     display: flex;
     background-color: #333;
